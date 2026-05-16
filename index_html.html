@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatima Sales Dashboard</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f9f9f7; color: #1a1a18; padding: 1.5rem; }
+      input[type=number], input[type=date] { border: 0.5px solid #ccc; border-radius: 8px; padding: 4px 8px; font-size: 13px; outline: none; }
+      input[type=number]:focus, input[type=date]:focus { border-color: #534AB7; }
+      button { cursor: pointer; font-family: inherit; }
+      :root {
+        --color-background-primary: #ffffff;
+        --color-background-secondary: #f1efe8;
+        --color-text-primary: #1a1a18;
+        --color-text-secondary: #5f5e5a;
+        --color-border-tertiary: rgba(0,0,0,0.15);
+        --color-border-secondary: rgba(0,0,0,0.3);
+        --border-radius-md: 8px;
+        --border-radius-lg: 12px;
+        --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
